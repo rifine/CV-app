@@ -1,0 +1,100 @@
+<ion-header>
+    <!-- Sidemenu will show with this code. Inessa Rif 1901057 -->
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  <ion-title>
+    Technical Skills
+  </ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <!-- ion-grid 1/2 -->
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div></div>
+      </ion-col>
+      <ion-col>
+          <!-- text wit styling. And re-order component below. -->
+        <p style="color:red;">Note! Things aren't in any specific order. You can re-order them.</p>
+        <div>
+          <ion-list>
+            <!-- The reorder gesture is disabled by default, enable it to drag and drop items -->
+            <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
+            <!-- Default reorder icon, end aligned items -->
+            <ion-reorder>
+            <ion-item>
+              <ion-label>Computer @- and A- driving <div></div>license </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label>Use of Memscore/KSIS" <div></div>scoring system and "Procountor" <div></div>financial management system </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label> Excel, Word, Email, G Suite </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label>SQL,  JavaScript </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label>HTML and CSS</ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label>UX and UI design principles </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label> Simple mobile app design <div></div>with Ionic 5 framework </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label>Prototyping using Marvel, <div></div>GitHub usage </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label> Firebase database connection <div></div>and authentication in mobile app</ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label> Google Analytics </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+            <ion-reorder>
+            <ion-item>
+              <ion-label> Design Canva, LiveCollage </ion-label>
+            </ion-item>
+          </ion-reorder>
+
+          </ion-reorder-group>
+          </ion-list>
+        </div>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
+</ion-content>

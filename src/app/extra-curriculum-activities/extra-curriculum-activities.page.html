@@ -1,0 +1,83 @@
+<ion-header>
+    <!-- Sidemenu will show with this code. Inessa Rif 1901057 -->
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  <ion-title>
+    Extra Curriculum activities
+  </ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <!-- ion-slides component below + ion-button to the profile page + styling. -->
+  <ion-slides>
+
+    <ion-slide>
+      <div class="slide">
+        <img src="/assets/photo/sport.jpg"/>
+        <h2>Sports</h2>
+        <p>All kinds of sports are close to my heart.</p><div></div><p><b>>>>Swipe left to see more!</b></p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="/assets/photo/rg.png"/>
+      <h2>RG</h2>
+      <p>I am a former National Team athlete in Rhythmic Gymnastics (2009-2019).</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="/assets/photo/office2.jpg"/>
+      <h2>Employment/voluntary work</h2>
+      <p>Nowadays I coach and do office work in our sport club.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="/assets/photo/music.jpg"/>
+      <h2>Hobbies</h2>
+      <p>Audiobooks, art, music, sports...</p>
+      <ion-button href= "/personal-profile" fill="clear">Back to Profile <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+
+  </ion-slides>
+
+
+
+<style>
+ion-slides {
+  height: 100%;
+}
+
+.swiper-slide {
+  display: block;
+}
+
+.swiper-slide h2 {
+  margin-top: 2.8rem;
+}
+
+.swiper-slide img {
+  max-height: 50%;
+  max-width: 80%;
+  margin: 60px 0 40px;
+  pointer-events: none;
+}
+
+b {
+  font-weight: 500;
+}
+
+p {
+  padding: 0 40px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ion-color-step-600, #60646b);
+}
+
+p b {
+  color: var(--ion-text-color, #000000);
+}
+</style>
+</ion-content>
